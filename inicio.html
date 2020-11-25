@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><title></title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+    
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container-fluid"  >					
+<header class="row">
+	<div class="col-lg-12 " >
+		 <a href="index.html"><img src="img/a.png" class="img-fluid" alt="R" style=" width: 100%;height: 450px"></a>
+    
+    </div>
+		<div class="col-lg-12 "  >
+			<nav class="navbar  navbar-expand-lg navbar-dark bg-dark " >
+
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse py-2" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto ml-5">
+     <li class="nav-item active">
+        <a class="nav-link m-1" href="index.html">            
+        	 <span class="sr-only">(current)</span><i class="fas fa-home fa-2x font-weight-bold" ></i> </a>
+      </li>
+           <li class="nav-item">
+        <a class="nav-link m-1" href="atractivos.html" target="ar">ATRACTIVOS </a>
+        </li><li class="nav-item">
+        <a class="nav-link m-1" href="gastronomia.html" target="ar">GASTRONOMÍA</a>
+      </li><li class="nav-item m-1">
+        <a class="nav-link" href="festividades.html" target="ar">FESTIVIDADES</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle m-1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         GALERIA
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="balneario.html" target="ar">BALNEARIO</a>
+          <a class="dropdown-item" href="atardecer.html" target="ar">ATARDECER</a>
+          <a class="dropdown-item" href="noche.html" target="ar">NOCHE</a>
+          <a class="dropdown-item" href="surf.html" target="ar">SURF</a>
+        
+        </div>
+      </li>
+      
+    </ul>
+
+    <form class="form-inline my-2 my-lg-0">
+       <button class="btn btn-outline-warning my-2 my-sm-0 mx-5 font-weight-bold font-italic text-dark" type="button"><a id="link" href="#footer" >Escribenos</a></button>
+    </form>
+  </div>
+</nav>	
+	</div>
+</header>
+<article>
+	<div class="row mt-2">
+		<div class="col-12 col-lg-9 ">
+			<section>
+				<iframe src="atractivos.html" name="ar"></iframe>
+			</section>		
+		</div>
+		<div class="col-12 col-lg-3 p-0 pr-3">
+			<aside>
+				<iframe src="nosescriben.php" name="dinamico"></iframe>	
+			</aside>
+		</div>				 
+	</div>	
+</article>
+<footer class="row" id="footer" >
+
+		<div class="col-12 "> 
+        <div class="row ">
+           <div class="col-8 offset-2" >
+		<br><br><label class=" font-weight-bold" >COMENTARIOS Y/O SUGERENCIAS: </label>
+		<form method="post" action="grabamensaje.php">
+			<div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4" >Nombres: </label>
+      <input type="text" class="form-control text-italic" name="txtnombres"  placeholder="Ingrese sus nombres">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Apellidos: </label>
+      <input type="text" class="form-control text-italic" name="txtapellidos"  placeholder="Ingrese sus apellidos">
+    </div>
+  </div>
+  
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4" >E-mail: </label>
+      <input type="email" class="form-control text-italic" name="txtemail" placeholder="Ingrese su Correo Electronico">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputCity" >Pais y/o Ciudad: </label>
+      <input type="text" class="form-control text-italic" name="txtlugar"   placeholder="Ingrese su pais y/o ciudad">
+    </div>
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Mensaje: </label>
+    <textarea class="form-control text-italic" name="txtmensaje" placeholder="Escriba aqui su mensaje"></textarea>
+  </div>
+ <div class="text-right">
+  <button type="submit" class="btn btn-danger " style="color: white">ENVIAR</button>
+</div>
+</form>
+	</div>
+
+	</div>
+        <hr/ >
+
+		<div class="row">
+			<div class="col-12 text-center" style="margin: 5px; padding: 5px;">
+		<div>
+          <a href="https://www.olasperu.com/"><img src="img/olasperu.png" class="Responsive img " style="width: 300px; margin: 20px;" > </a>
+        <a href="http://www.huanchacorms.org/"><img src="img/rms.png" class="Responsive img" style=" margin: 20px"> </a >
+         </div>
+             <div>
+			<p style="color: white;margin: 10px">© 2019 Huanchaco</p>
+			</div>
+	</div>
+</div>
+</div>	
+	
+</footer>
+</div>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+</body>
+</html>

@@ -1,0 +1,86 @@
+ * { margin: 0px;
+    padding: 0px;
+	box-sizing: border-box;
+}  
+.container-fluid{
+	background: #007A76;
+}
+header img{
+	 width: 100%;
+	 height: 450px;
+}
+nav a{
+	font-family: Forte;
+	font-weight:bold; 
+}
+footer{
+	background: #343A40;
+}
+footer label{
+	color: white;
+}
+iframe{
+	border:none;
+	width: 100%;
+	height: 700px;
+}		
+form a{
+	color: #FFC107;
+	font-family: Arial; 
+}
+form a:hover {
+	  color:  black;	
+	 text-decoration: none;
+}
+/***Gastronomia****/
+.efecgastronomia{
+	overflow: hidden;
+}
+.efecgastronomia img{
+	width: 100%;
+	height: 250px;	
+}
+.efecgastronomia img:hover{
+	transform: scale(1.2);
+}
+/****Fin Gastronomia*****/
+.efect:hover{
+	transform: scale(1.1);
+}
+/*******Atractivos*****/
+body{
+	background:  #007A76;
+}
+.efecatractivos{
+	max-width: 900px;
+	box-shadow: 3px 5px 25px rgb(0,0,0,0.2);
+	background: #CDC5AC;
+}
+.efecatractivos:hover{
+	transform: scale(1.03);
+	box-shadow: 3px 5px 25px rgb(0,0,0,0.650);
+}
+.card-title-atractivos{
+	font-family: Bernard MT Condensed;
+}
+.card-img-atractivos {
+	width: 100%; height: 250px; margin-top: 24px;
+}
+.card-text-atractivos{
+    font-family: Andalus; font-size: 16px;
+}
+/***** IMG Balneario, Atardecer, noche, surf****/
+ .img-carrusel-balneario, .img-carrusel-atardecer, 
+ .img-carrusel-noche, .img-carrusel-surf{
+ 	width: 600px; height: 668px;
+ }
+/*****index******/
+.efecindex{
+	max-width: 900px; 
+	border-radius: 5px;
+  overflow: hidden;
+}
+.efecindex:hover{
+	box-shadow: 3px 5px 25px rgb(0,0,0,0.650);
+	transform: translateY(-15px);
+}
